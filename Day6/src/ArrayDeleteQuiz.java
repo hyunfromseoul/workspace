@@ -27,14 +27,12 @@ public class ArrayDeleteQuiz {
 		System.out.println("변경 전: " + Arrays.toString(kakao));
 //		첫번째 for문
 		for (int i = 0; i < kakao.length; i++) {
-			int countLength = 0;
 			if(name.equals(kakao[i])) {
 				checkIndex = i;
 				flag = true;
 				break;
-			} else {
-				countLength++;
 			}
+			
 		}
 		
 //		flag가 true로 바뀌었다는 것은 일치값이 있었다는 것
